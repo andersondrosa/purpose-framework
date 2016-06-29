@@ -2,6 +2,8 @@
 
 namespace Purpose\Entity;
 
+use Purpose\Exception\BaseException;
+
 class EntityException extends BaseException
 {
     public function __construct($key, $values=null)

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Exceptions;
+namespace Purpose\Exception;
 
 /**
   * Classe base para as exceptions da aplicação
