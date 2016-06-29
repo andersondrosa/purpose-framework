@@ -17,6 +17,6 @@ class Shared
             return self::$data[$name];
         }
 
-        return self::$data[$name] = $fn();
+        return self::$data[$name] = $fn ? $fn() : null;
     }
 }
